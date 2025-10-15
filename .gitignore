@@ -25,6 +25,9 @@ x86/
 !.vscode/settings.json
 !.vscode/tasks.json
 
+# JetBrains
+.idea
+
 # CMake
 _deps
 CMakeCache.txt
@@ -36,6 +39,10 @@ CTestTestfile.cmake
 cmake_install.cmake
 compile_commands.json
 install_manifest.txt
+
+# Zig
+.zig-cache
+zig-out
 
 # Prerequisites
 *.d
